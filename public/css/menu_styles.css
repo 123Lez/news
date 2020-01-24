@@ -1,0 +1,22 @@
+.logo-img
+{
+	width: 150px;
+	height: 100px;
+}
+.superSport_logo
+{
+	width: 150px;
+	height: 100px;
+	background-color: #103464;
+}
+.logo-container
+{
+	position: relative;
+	left: 30px;
+}
+.logo-img:hover,.superSport_logo:hover
+{
+	border:solid black; 
+	border-width: 2px;
+	cursor: pointer;
+}

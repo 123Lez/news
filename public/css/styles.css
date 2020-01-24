@@ -1,0 +1,196 @@
+@font-face {
+font-family: "brushscriptstd";
+src: url("../fonts/brushscriptstd.otf") format("opentype");
+/*src: url("CustomFont.woff") format("woff"),
+url("CustomFont.otf") format("opentype"),
+url("CustomFont.svg#filename") format("svg");*/
+}
+
+body
+{
+	background-color: rgb(247, 247, 247);
+	font-family:arial;
+}
+#app-body
+{
+	position: relative;
+	overflow: hidden;
+	top:0px;
+	width: 100%;
+	height: 100%;
+	box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.06), 0px 2px 5px 0px rgba(0,0,0,0.2);
+	background: #fff;
+}
+#logo
+{
+	font-family: "brushscriptstd";
+	color: #393737;
+	font-size: 40px;
+	text-align: center;
+}
+.sign_in_header
+{
+	color:#717f86;
+	font-size: 14px;
+	font-weight: 700;
+}
+.navbar
+{
+	height: 60px;
+}
+.remember_text
+{
+	color:#717f86;
+}
+.sign-button
+{
+	background-color: #5fcf80;
+	color:#fff;
+}
+.search-text
+{
+	border-radius: 2px;
+	border: 1px solid #ced4da;
+	height: calc(2.19rem + 2px);
+	width: 500px;
+
+}
+.img-container img
+{
+	height: 200px;
+	width: 350px;
+	cursor: pointer;
+
+}
+
+#img-holder
+{
+	height: 270px;
+	width: 350px;
+}
+.menu-container
+{
+	position: fixed;
+	height: 170px;
+	width: 200px;
+	left: 0px;
+
+	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	
+}
+.menu-container  li a 
+{
+  display: block;
+  background-color: #dddddd;
+}
+
+.home-menu-container:hover,.home-menu-container:focus
+{
+	background-color: #f9f8f8;
+	border-left: 3px solid #6fdbe8;
+	cursor: pointer;
+}
+.trending-menu-container:hover,.trending-menu-container:focus
+{
+	background-color: #f9f8f8;
+	border-left: 3px solid #6fdbe8;
+	cursor: pointer;
+}
+.subscription-menu-container:hover,.subscription-menu-container:focus
+{
+	background-color: #f9f8f8;
+	border-left: 3px solid #6fdbe8;
+	cursor: pointer;
+}
+.menuBar-menu-container:hover, .menuBar-menu-container:focus
+{
+	background-color: #f9f8f8;
+	border-left: 3px solid #6fdbe8;
+	cursor: pointer;
+}
+.home-menu-container li
+{
+	padding: 5px;
+	color: #424242;
+}
+.trending-menu-container li
+{
+	padding: 5px;
+	color: #424242;
+}
+.subscription-menu-container li
+{
+	padding: 5px;
+	color: #424242;
+}
+.menuBar-menu-container li
+{
+	padding: 5px;
+	color: #424242;
+}
+
+
+/*Menu Icon Text*/
+.home-menu-container span
+{
+	text-align: right;
+	font-weight: 600;
+	font-size: 13px;
+	color: #424242;
+}
+.trending-menu-container span
+{
+	text-align: right;
+	font-weight: 600;
+	font-size: 13px;
+	color: #424242;
+}
+.subscription-menu-container span
+{
+	text-align: right;
+	font-weight: 600;
+	font-size: 13px;
+	color: #424242;
+}
+.menuBar-menu-container span
+{
+	text-align: right;
+	font-weight: 600;
+	font-size: 13px;
+	color: #424242;
+}
+.article-title
+{
+	font-family: "Segoe UI";
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	text-decoration: none;
+	text-align: left;
+	text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+    white-space: pre-line;
+}
+.article-hover
+{
+	cursor: pointer;
+}
+.pagination-tab
+{
+	position: relative;
+	align-content: center;
+}
+.menu-container ul 
+{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+} 
+.page-pagination
+{
+	position: relative;
+	align-content:center;
+}
